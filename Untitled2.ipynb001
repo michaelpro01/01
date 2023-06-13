@@ -1,0 +1,58 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMt/UYorweeg5X6uSu1I9Aj",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/michaelpro01/01/blob/main/Untitled2.ipynb001\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 11,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yd1svg7ayKaa",
+        "outputId": "4bef1371-4d4c-407c-d874-99b964b4215a"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "michael e o cara tlgd \n",
+            "valor da variavel nome = michael e o cara tlgd \n",
+            "valor da variavel nome = michael e o cara tlgd \n"
+          ]
+        }
+      ],
+      "source": [
+        "nome = 'michael e o cara tlgd '\n",
+        "print(nome)\n",
+        "print('valor da variavel nome = {}'.format(nome))\n",
+        "print(f'valor da variavel nome = {nome}')"
+      ]
+    }
+  ]
+}
